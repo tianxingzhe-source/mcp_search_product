@@ -3,7 +3,7 @@ from typing import Dict, Any
 
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("My App")
+mcp = FastMCP("My App", port=39010)
 
 @mcp.tool()
 def search_product_info_by_company(company: str, key: str = "sk-1bfa2fde025242658999421bfe6d10d8") -> Dict[str, Any]:
