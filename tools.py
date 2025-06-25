@@ -48,7 +48,7 @@ if __name__ == "__main__":
     
     # 启动服务
     print("准备启动 HTTP 服务...")
-    mcp.run()  # 明确指定参数
+    mcp.run(transport="sse")  # 明确指定参数
 
     # # 运行 FastMCP 服务
     # mcp.run()
