@@ -1,0 +1,13 @@
+[project]
+name = "mcp-search-product"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.13",
+    "mcp[cli]>=1.9.4",
+    "requests>=2.32.4",
+    "starlette>=0.46.2",
+    "uvicorn>=0.34.3",
+]
