@@ -42,7 +42,7 @@ if __name__ == "__main__":
     print("准备启动 HTTP 服务...")
     mcp.run(
         transport="http",
-        host="127.0.0.1",
+        host="115.236.46.156",
         port=39010,
         path="/api",
         log_level="debug",
